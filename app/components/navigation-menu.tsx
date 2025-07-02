@@ -1,32 +1,40 @@
 "use client";
 
-import Link from "next/link";
+import { Button } from "@/src/components/ui/button";
+import { Moon, Sun } from "lucide-react";
 import { useTheme } from "next-themes";
-import { Sun, Moon } from "lucide-react";
+import Link from "next/link";
 
 export function Navbar() {
   const { resolvedTheme, setTheme } = useTheme();
 
   return (
     <nav className="w-full p-4 border-b bg-white dark:bg-zinc-900 dark:border-zinc-700">
-      <div className="mx-auto max-w-5xl flex items-center justify-between">
-        <Link href="/" className="text-xl font-bold">
-          MonSite
-        </Link>
-
+      <div className="mx-auto flex items-center justify-between">
         <div className="flex items-center gap-4">
-          <Link href="#services">Services</Link>
-          <Link href="#contact">Contact</Link>
+          <img
+            src="/photo2.jpg" // Assure-toi d'avoir une image dans le dossier public
+            alt="photo de Mikaël"
+            className="w-13 h-13 rounded-full"
+          />
+          <Link href="/" className="text-xl font-bold">
+            AGNIEL Mikaël
+          </Link>
+        </div>
+        <div className="flex items-center gap-4">
+          <Link href="#">Projets</Link>
+          <Link href="/contact">Contact</Link>
 
-          <button
+          <Button
             aria-label="Changer le thème"
             onClick={() =>
               setTheme(resolvedTheme === "dark" ? "light" : "dark")
             }
-            className="p-2 rounded hover:bg-black/10 dark:hover:bg-white/10"
+            className="p-2 rounded hover:bg-black/10 dark:hover:bg-white/10 suppressHydrationWarning"
+            variant={"outline"}
           >
             {resolvedTheme === "dark" ? <Sun size={18} /> : <Moon size={18} />}
-          </button>
+          </Button>
         </div>
       </div>
     </nav>
