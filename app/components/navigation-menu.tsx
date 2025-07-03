@@ -3,6 +3,7 @@
 import { Button } from "@/src/components/ui/button";
 import { Moon, Sun } from "lucide-react";
 import { useTheme } from "next-themes";
+import Image from "next/image";
 import Link from "next/link";
 
 export function Navbar() {
@@ -12,10 +13,12 @@ export function Navbar() {
     <nav className="w-full p-4 border-b bg-white dark:bg-zinc-900 dark:border-zinc-700">
       <div className="mx-auto flex items-center justify-between">
         <div className="flex items-center gap-4">
-          <img
+          <Image
             src="/photo2.jpg" // Assure-toi d'avoir une image dans le dossier public
+            width={50}
+            height={50}
             alt="photo de Mikaël"
-            className="w-13 h-13 rounded-full"
+            className="rounded-full  w-13 h-13"
           />
           <Link href="/" className="text-xl font-bold">
             AGNIEL Mikaël

@@ -26,14 +26,14 @@ export default function Home() {
             fluides et esthétiques.
           </p>
           <p>
-            Développeur web diplômé du parcours OpenClassrooms, j'ai suivi une
-            formation intensive alliant théorie et pratique pour maîtriser les
-            technologies modernes comme HTML, CSS, JavaScript, React, et
-            Node.js. Grâce à des projets concrets, j'ai appris à concevoir des
-            sites dynamiques, performants et optimisés.
-            <br /> Mon parcours, enrichi par un mentorat professionnel, m'a
+            Développeur web diplômé du parcours OpenClassrooms, {`j'ai`} suivi
+            une formation intensive alliant théorie et pratique pour maîtriser
+            les technologies modernes comme HTML, CSS, JavaScript, React, et
+            Node.js. Grâce à des projets concrets, {`j'ai`} appris à concevoir
+            des sites dynamiques, performants et optimisés.
+            <br /> Mon parcours, enrichi par un mentorat professionnel, {`m'a `}
             permis de développer des compétences solides pour répondre aux
-            besoins uniques de chaque projet. Aujourd'hui, je mets cette
+            besoins uniques de chaque projet. {`Aujourd'hui`}, je mets cette
             expertise au service de vos idées pour créer des solutions web
             innovantes.
           </p>
