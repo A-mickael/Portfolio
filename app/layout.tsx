@@ -4,22 +4,22 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Portfolio - Mikaël AGNIEL",
+  title: "Portfolio - Mickaël AGNIEL",
   description:
     "Bienvenue sur mon portfolio ! Je suis Mickaël, développeur web spécialisé dans la création de sites vitrines modernes et performants.",
   keywords: ["Next.js", "Portfolio", "Vitrine", "Tailwind", "shadcn/ui"],
   authors: [{ name: "Mika", url: "https://github.com/A-mickael" }],
   creator: "Mika",
-  metadataBase: new URL("https://tonsite.com"), // remplace plus tard par ton vrai domaine
+  metadataBase: new URL("https://a-mickael.vercel.app/"), // remplace plus tard par ton vrai domaine
   openGraph: {
-    title: "Portfolio - Mikaël AGNIEL",
+    title: "Portfolio - Mickaël AGNIEL",
     description:
       "Bienvenue sur mon portfolio ! Je suis Mickaël, développeur web spécialisé dans la création de sites vitrines modernes et performants.",
-    url: "https://tonsite.com",
+    url: "https://a-mickael.vercel.app/",
     siteName: "Portfolio",
     images: [
       {
-        url: "/og-image.jpg", // ajoute ce fichier plus tard dans /public
+        url: "/portfolio.png", // ajoute ce fichier plus tard dans /public
         width: 1200,
         height: 630,
         alt: "Aperçu du site",
@@ -46,7 +46,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" suppressHydrationWarning>
+    <html lang="fr" suppressHydrationWarning>
       <body className={`${geistSans.variable} ${geistMono.variable} font-sans`}>
         <ThemeProvider>{children}</ThemeProvider>
       </body>

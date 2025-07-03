@@ -1,11 +1,12 @@
 import { Card } from "@/src/components/ui/card";
+import { Footer } from "./components/footer";
 import { Navbar } from "./components/navigation-menu";
 
 export default function Home() {
   return (
     <div>
       <Navbar />
-      <div className="flex flex-col  items-center mt-6">
+      <div className="flex flex-col  items-center m-6">
         <div className="mb-8 text-center space-y-4">
           <h1 className="text-4xl font-bold text-center uppercase">
             mickaël agniel <br />
@@ -73,6 +74,7 @@ export default function Home() {
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 }
