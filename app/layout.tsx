@@ -4,19 +4,19 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Starter Next.js - Site Vitrine",
+  title: "Portfolio - Mikaël AGNIEL",
   description:
-    "Base de projet vitrine rapide avec Next.js, Tailwind et shadcn/ui.",
-  keywords: ["Next.js", "Starter", "Vitrine", "Tailwind", "shadcn/ui"],
+    "Bienvenue sur mon portfolio ! Je suis Mickaël, développeur web spécialisé dans la création de sites vitrines modernes et performants.",
+  keywords: ["Next.js", "Portfolio", "Vitrine", "Tailwind", "shadcn/ui"],
   authors: [{ name: "Mika", url: "https://github.com/A-mickael" }],
   creator: "Mika",
   metadataBase: new URL("https://tonsite.com"), // remplace plus tard par ton vrai domaine
   openGraph: {
-    title: "Starter Next.js - Site Vitrine",
+    title: "Portfolio - Mikaël AGNIEL",
     description:
-      "Base de projet vitrine rapide avec Next.js, Tailwind et shadcn/ui.",
+      "Bienvenue sur mon portfolio ! Je suis Mickaël, développeur web spécialisé dans la création de sites vitrines modernes et performants.",
     url: "https://tonsite.com",
-    siteName: "Starter Vitrine",
+    siteName: "Portfolio",
     images: [
       {
         url: "/og-image.jpg", // ajoute ce fichier plus tard dans /public
@@ -27,14 +27,6 @@ export const metadata: Metadata = {
     ],
     locale: "fr_FR",
     type: "website",
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: "Starter Next.js - Site Vitrine",
-    description:
-      "Base de projet vitrine rapide avec Next.js, Tailwind et shadcn/ui.",
-    creator: "@tonpseudo", // remplace si tu as un compte Twitter
-    images: ["/og-image.jpg"],
   },
 };
 
@@ -55,7 +47,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={`${geistSans.variable} font-sans ${geistMono.variable}`}>
+      <body className={`${geistSans.variable} ${geistMono.variable} font-sans`}>
         <ThemeProvider>{children}</ThemeProvider>
       </body>
     </html>

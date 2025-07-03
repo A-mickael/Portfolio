@@ -4,7 +4,7 @@ export default function Contact() {
   return (
     <div>
       <Navbar />
-      <div className="flex flex-col items-center min-h-screen p-8">
+      <div className="flex flex-col items-center p-8">
         <h1 className="text-3xl font-bold mb-6">Contactez-moi</h1>
         <p className="mb-4">
           Pour toute demande, n'hésitez pas à me contacter :

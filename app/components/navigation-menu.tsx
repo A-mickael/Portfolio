@@ -22,7 +22,7 @@ export function Navbar() {
           </Link>
         </div>
         <div className="flex items-center gap-4">
-          <Link href="#">Projets</Link>
+          <Link href="/projets">Projets</Link>
           <Link href="/contact">Contact</Link>
 
           <Button

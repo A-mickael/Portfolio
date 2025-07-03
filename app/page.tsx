@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <div>
       <Navbar />
-      <div className="flex flex-col min-h-screen items-center mt-6">
+      <div className="flex flex-col  items-center mt-6">
         <div className="mb-8 text-center space-y-4">
           <h1 className="text-4xl font-bold text-center uppercase">
             mickaël agniel <br />
@@ -20,7 +20,7 @@ export default function Home() {
             à propos de moi
           </h2>
           <p>
-            Je suis Mikaël, développeur web passionné par la création de sites
+            Je suis Mickaël, développeur web passionné par la création de sites
             vitrines modernes et performants. Avec une expertise en Next.js,
             Tailwind CSS et shadcn/ui, je construis des expériences utilisateur
             fluides et esthétiques.
@@ -30,11 +30,12 @@ export default function Home() {
             formation intensive alliant théorie et pratique pour maîtriser les
             technologies modernes comme HTML, CSS, JavaScript, React, et
             Node.js. Grâce à des projets concrets, j'ai appris à concevoir des
-            sites dynamiques, performants et optimisés. Mon parcours, enrichi
-            par un mentorat professionnel, m'a permis de développer des
-            compétences solides pour répondre aux besoins uniques de chaque
-            projet. Aujourd'hui, je mets cette expertise au service de vos idées
-            pour créer des solutions web innovantes.
+            sites dynamiques, performants et optimisés.
+            <br /> Mon parcours, enrichi par un mentorat professionnel, m'a
+            permis de développer des compétences solides pour répondre aux
+            besoins uniques de chaque projet. Aujourd'hui, je mets cette
+            expertise au service de vos idées pour créer des solutions web
+            innovantes.
           </p>
           <div className="mt-10 max-w-2xl text-center space-y-4">
             <h2 className="text-2xl font-bold uppercase underline">
