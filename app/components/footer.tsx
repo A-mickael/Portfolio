@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export function Footer() {
   return (
     <footer className="w-full p-4 border-t bg-white border-zinc-300 dark:bg-zinc-900 dark:border-zinc-700 flex flex-col ">
@@ -8,6 +10,12 @@ export function Footer() {
             Créé avec passion pour transformer vos idées en solutions web
             uniques.
           </p>
+          <Link
+            href="/mentions-legales"
+            className="text-gray-500 hover:text-blue-600 transition-colors duration-200 underline underline-offset-4"
+          >
+            Mentions légales
+          </Link>
         </div>
         <div className="flex flex-col items-center gap-4">
           <h2>SOCIAL</h2>
