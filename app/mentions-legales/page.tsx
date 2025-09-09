@@ -11,8 +11,9 @@ export default function MentionsLegalesPage() {
         <section className="mb-6">
           <p>
             En conformité avec les articles 6-III et 19 de la Loi n°2004-575 du
-            21 juin 2004 pour la Confiance dans l'Économie Numérique (LCEN), il
-            est précisé aux utilisateurs du site les informations suivantes :
+            21 juin 2004 pour la Confiance dans l&apos;Économie Numérique
+            (LCEN), il est précisé aux utilisateurs du site les informations
+            suivantes :
           </p>
         </section>
 
