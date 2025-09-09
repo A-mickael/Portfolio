@@ -54,7 +54,7 @@ export default function MentionsLegalesPage() {
             propriété exclusive de Mickael AGNIEL, sauf mention contraire. Toute
             reproduction, distribution, modification, adaptation, retransmission
             ou publication, même partielle, est strictement interdite sans
-            l’accord écrit préalable.
+            l&apos;accord écrit préalable.
           </p>
         </section>
 
@@ -65,8 +65,8 @@ export default function MentionsLegalesPage() {
           <p>
             Les informations fournies sur ce site sont données à titre
             indicatif. Mickael AGNIEL ne saurait être tenu responsable des
-            erreurs ou omissions, ni de l'utilisation qui pourrait être faite de
-            ces informations.
+            erreurs ou omissions, ni de l&apos;utilisation qui pourrait être
+            faite de ces informations.
           </p>
         </section>
       </main>
