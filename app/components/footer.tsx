@@ -27,7 +27,11 @@ export function Footer() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src="/linkedin-ico.png" alt="Linkedin" className="w-6 h-6" />
+              <img
+                src="/linkedin-ico.png"
+                alt="Linkedin"
+                className="w-6 h-6 bg-gray-900 rounded"
+              />
             </a>
             <a
               href="https://github.com/mickael13800"
@@ -35,7 +39,11 @@ export function Footer() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src="/github-ico.png" alt="GitHub" className="w-6 h-6" />
+              <img
+                src="/github-ico.png"
+                alt="GitHub"
+                className="w-6 h-6 bg-gray-900 rounded"
+              />
             </a>
           </div>
         </div>

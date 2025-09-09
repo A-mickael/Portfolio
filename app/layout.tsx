@@ -1,6 +1,8 @@
 import { ThemeProvider } from "@/src/components/theme-provider";
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import { Footer } from "./components/footer";
+import { Navbar } from "./components/navigation-menu";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -47,8 +49,14 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="fr" suppressHydrationWarning>
-      <body className={`${geistSans.variable} ${geistMono.variable} font-sans`}>
-        <ThemeProvider>{children}</ThemeProvider>
+      <body
+        className={`${geistSans.variable} ${geistMono.variable} font-sans min-h-screen flex flex-col`}
+      >
+        <ThemeProvider>
+          <Navbar />
+          <main className="flex-1 flex flex-col">{children}</main>
+          <Footer />
+        </ThemeProvider>
       </body>
     </html>
   );

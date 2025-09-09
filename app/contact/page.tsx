@@ -1,11 +1,7 @@
-import { Footer } from "../components/footer";
-import { Navbar } from "../components/navigation-menu";
-
 export default function Contact() {
   return (
-    <div className="flex flex-col min-h-screen">
-      <Navbar />
-      <div className="flex-1 flex flex-col items-center p-8">
+    <main className="flex flex-col pt-30">
+      <div className="flex-1 flex flex-col items-center">
         <h1 className="text-3xl font-bold mb-6">Contactez-moi</h1>
         <p className="mb-4">
           Pour toute demande, {"n'hésitez"} pas à me contacter :
@@ -24,7 +20,6 @@ export default function Contact() {
           📞 +33 7 82 27 82 89
         </a>
       </div>
-      <Footer />
-    </div>
+    </main>
   );
 }
