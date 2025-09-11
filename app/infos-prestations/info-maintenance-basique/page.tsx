@@ -1,6 +1,7 @@
 "use client";
 
 import { Button } from "@/src/components/ui/button";
+import Link from "next/link";
 
 export default function InfoMaintenanceBasique() {
   return (
@@ -55,7 +56,7 @@ export default function InfoMaintenanceBasique() {
             📩 Intéressé par cette option ? Contactez-moi pour un devis.
           </p>
           <Button size="lg" asChild>
-            <a href="mailto:agniel.mickael@gmail.com">Discuter de mon projet</a>
+            <Link href="/contact">Discuter de mon projet</Link>
           </Button>
         </section>
       </div>

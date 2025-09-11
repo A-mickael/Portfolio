@@ -1,6 +1,7 @@
 "use client";
 
 import { Button } from "@/src/components/ui/button";
+import Link from "next/link";
 
 export default function InfoSurMesure() {
   return (
@@ -82,7 +83,7 @@ export default function InfoSurMesure() {
             aujourd&rsquo;hui pour un devis personnalisé.
           </p>
           <Button size="lg" asChild>
-            <a href="mailto:agniel.mickael@gmail.com">Discuter de mon projet</a>
+            <Link href="/contact">Discuter de mon projet</Link>
           </Button>
         </section>
       </div>

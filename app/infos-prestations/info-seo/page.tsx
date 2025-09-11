@@ -1,6 +1,7 @@
 "use client";
 
 import { Button } from "@/src/components/ui/button";
+import Link from "next/link";
 
 export default function InfoSEO() {
   return (
@@ -85,7 +86,7 @@ export default function InfoSEO() {
             pour en discuter et obtenir un devis.
           </p>
           <Button size="lg" asChild>
-            <a href="mailto:agniel.mickael@gmail.com">Discuter de mon projet</a>
+            <Link href="/contact">Discuter de mon projet</Link>
           </Button>
         </section>
       </div>
