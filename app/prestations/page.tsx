@@ -1,7 +1,8 @@
 "use client";
 
-import { Card } from "@/src/components/ui/card";
 import { Button } from "@/src/components/ui/button";
+import { Card } from "@/src/components/ui/card";
+import Link from "next/link";
 
 export default function Prestations() {
   return (
@@ -27,7 +28,9 @@ export default function Prestations() {
               <li>✅ SEO de base</li>
               <li>✅ Livraison en 7 jours</li>
             </ul>
-            <Button className="mt-auto w-full">Demander ce pack</Button>
+            <Button asChild className="mt-auto w-full">
+              <Link href="/infos-prestations/info-vitrine"> + d'infos</Link>
+            </Button>
           </Card>
 
           {/* --- Option SEO --- */}
@@ -42,7 +45,9 @@ export default function Prestations() {
               <li>✅ Audit SEO complet</li>
               <li>✅ Rapport PDF détaillé</li>
             </ul>
-            <Button className="mt-auto w-full">Ajouter au pack</Button>
+            <Button asChild className="mt-auto w-full">
+              <Link href="/infos-prestations/info-seo"> + d'infos</Link>
+            </Button>
           </Card>
 
           {/* --- Pack Sur-mesure --- */}
@@ -59,7 +64,9 @@ export default function Prestations() {
               <li>✅ API & intégrations avancées</li>
               <li>✅ Nombre de pages illimité</li>
             </ul>
-            <Button className="mt-auto w-full">Demander un devis</Button>
+            <Button asChild className="mt-auto w-full">
+              <Link href="/infos-prestations/info-sur-mesure"> + d'infos</Link>
+            </Button>
           </Card>
         </div>
 
@@ -73,21 +80,42 @@ export default function Prestations() {
               <h3 className="font-bold text-lg mb-2">Hébergement & Domaine</h3>
               <p className="text-2xl font-bold mb-2">80 €/an</p>
               <p>Nom de domaine + hébergement optimisé</p>
+              <Button asChild className="mt-auto w-full">
+                <Link href="/infos-prestations/info-hebergement">
+                  {" "}
+                  + d'infos
+                </Link>
+              </Button>
             </Card>
             <Card className="p-6 bg-white dark:bg-zinc-900">
               <h3 className="font-bold text-lg mb-2">Maintenance Basique</h3>
               <p className="text-2xl font-bold mb-2">20 €/mois</p>
               <p>Mises à jour, sauvegardes, corrections mineures</p>
+              <Button asChild className="mt-auto w-full">
+                <Link href="/infos-prestations/info-maintenance-basique">
+                  {" "}
+                  + d'infos
+                </Link>
+              </Button>
             </Card>
             <Card className="p-6 bg-white dark:bg-zinc-900">
               <h3 className="font-bold text-lg mb-2">Maintenance Complète</h3>
               <p className="text-2xl font-bold mb-2">50 €/mois</p>
               <p>+ Suivi SEO, support, petites modifications</p>
+              <Button asChild className="mt-auto w-full">
+                <Link href="/infos-prestations/info-maintenance-complete">
+                  {" "}
+                  + d'infos
+                </Link>
+              </Button>
             </Card>
             <Card className="p-6 bg-white dark:bg-zinc-900 md:col-span-3">
               <h3 className="font-bold text-lg mb-2">Refonte de site</h3>
               <p className="text-2xl font-bold mb-2">À partir de 500 €</p>
               <p>Modernisation et optimisation d’un site existant</p>
+              <Button asChild className="mt-auto w-full">
+                <Link href="/infos-prestations/info-refonte"> + d'infos</Link>
+              </Button>
             </Card>
           </div>
         </div>
