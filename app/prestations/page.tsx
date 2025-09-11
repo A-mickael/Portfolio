@@ -21,7 +21,7 @@ export default function Prestations() {
             </h2>
             <p className="text-center text-3xl font-extrabold mb-4">690 €</p>
             <ul className="space-y-2 text-gray-700 dark:text-gray-300">
-              <li>✅ Jusqu’à 3 pages personnalisées</li>
+              <li>✅ {"Jusqu’à"} 3 pages personnalisées</li>
               <li>✅ Design moderne et responsive</li>
               <li>✅ Formulaire de contact</li>
               <li>✅ Intégration réseaux sociaux</li>
@@ -112,7 +112,7 @@ export default function Prestations() {
             <Card className="p-6 bg-white dark:bg-zinc-900 md:col-span-3">
               <h3 className="font-bold text-lg mb-2">Refonte de site</h3>
               <p className="text-2xl font-bold mb-2">À partir de 500 €</p>
-              <p>Modernisation et optimisation d’un site existant</p>
+              <p>Modernisation et optimisation {"d’un"} site existant</p>
               <Button asChild className="mt-auto w-full">
                 <Link href="/infos-prestations/info-refonte"> + d'infos</Link>
               </Button>
@@ -126,7 +126,7 @@ export default function Prestations() {
             📩 Intéressé par un de mes packs ?
           </h2>
           <p className="mb-6">
-            Contactez-moi dès aujourd’hui pour obtenir un devis gratuit et
+            Contactez-moi dès {"aujourd’hui"} pour obtenir un devis gratuit et
             personnalisé.
           </p>
           <Button size="lg" asChild>
