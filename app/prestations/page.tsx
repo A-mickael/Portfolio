@@ -133,7 +133,7 @@ export default function Prestations() {
             personnalisé.
           </p>
           <Button size="lg" asChild>
-            <a href="mailto:agniel.mickael@gmail.com">Discuter de mon projet</a>
+            <Link href="/contact">Discuter de mon projet</Link>
           </Button>
         </div>
       </div>
