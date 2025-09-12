@@ -15,19 +15,21 @@ export default function ProjetBooki() {
           className="rounded-lg max-w-full h-auto mb-6"
         />
         <p className="text-xl mb-4 max-w-4xl text-center">
-          Création de la page d'accueil d'une agence de voyage avec une
-          interface responsive. Ce projet se concentre sur l'intégration fidèle
-          d'une maquette et l'optimisation pour différents écrans.
+          Création de la page {"d'accueil"} {"d'une"} agence de voyage avec une
+          interface responsive. Ce projet se concentre sur {"l'intégration"}{" "}
+          fidèle
+          {"d'une"} maquette et {"l'optimisation"} pour différents écrans.
         </p>
         <section className="max-w-4xl w-full">
           <h2 className="text-2xl font-bold mb-4">Description du projet</h2>
           <p className="mb-6">
-            Le projet Booki consiste à développer la page d'accueil d'une agence
-            de voyage fictive. L'objectif principal était de créer une interface
-            utilisateur attrayante et fonctionnelle, en respectant fidèlement la
-            maquette fournie. Le site devait être entièrement responsive,
-            offrant une expérience utilisateur optimale sur tous les types
-            d'appareils, des smartphones aux ordinateurs de bureau.
+            Le projet Booki consiste à développer la page {"d'accueil"}{" "}
+            {"d'une"} agence de voyage fictive. {"L'objectif"} principal était
+            de créer une interface utilisateur attrayante et fonctionnelle, en
+            respectant fidèlement la maquette fournie. Le site devait être
+            entièrement responsive, offrant une expérience utilisateur optimale
+            sur tous les types
+            {"d'appareils"}, des smartphones aux ordinateurs de bureau.
           </p>
           <h2 className="text-2xl font-bold mb-4">Technologies utilisées</h2>
           <ul className="list-disc list-inside mb-6">
@@ -45,8 +47,8 @@ export default function ProjetBooki() {
             </li>
             <li>
               Mettre en œuvre des fonctionnalités comme un formulaire de
-              recherche, des cartes d'hébergement et d'activités, et un menu de
-              navigation interactif.
+              recherche, des cartes {"d'hébergement"} et {"d'activités"}, et un
+              menu de navigation interactif.
             </li>
             <li>
               Assurer une compatibilité multi-écran grâce à {"l’utilisation"} de

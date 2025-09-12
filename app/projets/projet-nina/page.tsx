@@ -5,7 +5,7 @@ export default function ProjetNina() {
     <main className="pt-30">
       <div className="flex flex-col items-center m-6">
         <h1 className="text-4xl font-bold text-center uppercase mb-10">
-          Optimisation d'un site de photographe
+          Optimisation {"d'un"} site de photographe
         </h1>
         <Image
           src="/nina.jpg"
@@ -16,20 +16,21 @@ export default function ProjetNina() {
         />
         <p className="text-xl mb-4 max-w-4xl text-center">
           Débuggage et optimisation des performances pour améliorer le
-          référencement naturel (SEO) et l'accessibilité. Utilisation des Chrome
-          DevTools pour identifier les problèmes et proposer des solutions
-          adaptées.
+          référencement naturel (SEO) et {"l'accessibilité"}. Utilisation des
+          Chrome DevTools pour identifier les problèmes et proposer des
+          solutions adaptées.
         </p>
         <section className="max-w-4xl w-full">
           <h2 className="text-2xl font-bold mb-4">Description du projet</h2>
           <p className="mb-6">
             Ce projet vise à optimiser le site web de la photographe Nina
             Carducci pour améliorer ses performances, son référencement naturel
-            (SEO), et son accessibilité. L'objectif est de rendre le site plus
-            rapide, mieux référencé, et accessible à tous les utilisateurs, y
-            compris ceux utilisant des technologies d'assistance. En parallèle,
-            des bugs identifiés dans la navigation de la galerie et les filtres
-            d'images doivent être corrigés.
+            (SEO), et son accessibilité. {"L'objectif"} est de rendre le site
+            plus rapide, mieux référencé, et accessible à tous les utilisateurs,
+            y compris ceux utilisant des technologies {"d'assistance"}. En
+            parallèle, des bugs identifiés dans la navigation de la galerie et
+            les filtres
+            {"d'images"} doivent être corrigés.
           </p>
           <h2 className="text-2xl font-bold mb-4">Technologies utilisées</h2>
           <ul className="list-disc list-inside mb-6">
@@ -61,13 +62,13 @@ export default function ProjetNina() {
             </li>
             <li>
               Correction des bugs : Résolution des problèmes liés à la
-              navigation dans la galerie (modale) et à l'indication de la
+              navigation dans la galerie (modale) et à {"l'indication"} de la
               catégorie sélectionnée dans les filtres.
             </li>
             <li>
-              Rapport détaillé : Fourniture d’un rapport d’intervention incluant
-              les analyses avant/après, les modifications effectuées, et un
-              cahier de recette.
+              Rapport détaillé : Fourniture {"d’un"} rapport {"d’intervention"}{" "}
+              incluant les analyses avant/après, les modifications effectuées,
+              et un cahier de recette.
             </li>
           </ul>
           <h2 className="text-2xl font-bold mb-4">Lien vers le projet</h2>

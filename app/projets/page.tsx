@@ -13,8 +13,8 @@ export default function Projets() {
         <p className="text-xl mb-10 max-w-4xl text-center">
           Découvrez quelques réalisations qui reflètent mon parcours et ma
           passion pour le développement web. Chaque projet a été une opportunité
-          d'appliquer mes compétences, de relever des défis techniques, et de
-          concevoir des solutions modernes et fonctionnelles. Voici une
+          {"d'appliquer"} mes compétences, de relever des défis techniques, et
+          de concevoir des solutions modernes et fonctionnelles. Voici une
           sélection de mes travaux :
         </p>
         <section className="grid gap-6 md:grid-cols-2 max-w-6xl w-full">
@@ -23,9 +23,11 @@ export default function Projets() {
               Site vitrine Booki
             </CardTitle>
             <CardContent>
-              Création de la page d'accueil d'une agence de voyage avec une
-              interface responsive. Ce projet se concentre sur l'intégration
-              fidèle d'une maquette et l'optimisation pour différents écrans.
+              Création de la page {"d'accueil"} {"d'une"} agence de voyage avec
+              une interface responsive. Ce projet se concentre sur{" "}
+              {"l'intégration"}
+              fidèle {"d'une"} maquette et {"l'optimisation"} pour différents
+              écrans.
             </CardContent>
             <Button asChild className="mt-auto w-full">
               <Link href="/projets/projet-booki"> + {"d'infos"}</Link>
@@ -40,12 +42,12 @@ export default function Projets() {
           />
           <Card className="flex flex-col border-2 rounded-2xl p-6 bg-white dark:bg-zinc-900 shadow-md hover:shadow-xl transition">
             <CardTitle className="text-uppercase font-bold text-center text-2xl underline">
-              Optimisation d'un site de photographe
+              Optimisation {"d'un"} site de photographe
             </CardTitle>
             <CardContent>
               Débuggage et optimisation des performances pour améliorer le
-              référencement naturel (SEO) et l'accessibilité. Utilisation des
-              Chrome DevTools pour identifier les problèmes et proposer des
+              référencement naturel (SEO) et {"l'accessibilité"}. Utilisation
+              des Chrome DevTools pour identifier les problèmes et proposer des
               solutions adaptées.
             </CardContent>
             <Button asChild className="mt-auto w-full">
@@ -64,9 +66,9 @@ export default function Projets() {
               Application de Location Immobilière Kasa
             </CardTitle>
             <CardContent>
-              Développement d'une application web de location immobilière avec
-              des composants dynamiques et une navigation fluide entre les
-              pages. Animation des éléments pour enrichir l'expérience
+              Développement {"d'une"} application web de location immobilière
+              avec des composants dynamiques et une navigation fluide entre les
+              pages. Animation des éléments pour enrichir {"l'expérience"}
               utilisateur.
             </CardContent>
             <Button asChild className="mt-auto w-full">

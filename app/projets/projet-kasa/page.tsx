@@ -15,9 +15,9 @@ export default function ProjetKasa() {
           className="rounded-lg max-w-full h-auto mb-6"
         />
         <p className="text-xl mb-4 max-w-4xl text-center">
-          Développement d'une application web de location immobilière avec des
-          composants dynamiques et une navigation fluide entre les pages.
-          Animation des éléments pour enrichir l'expérience utilisateur.
+          Développement {"d'une"} application web de location immobilière avec
+          des composants dynamiques et une navigation fluide entre les pages.
+          Animation des éléments pour enrichir {"l'expérience"} utilisateur.
         </p>
         <section className="max-w-4xl w-full">
           <h2 className="text-2xl font-bold mb-4">Description du projet</h2>
@@ -27,8 +27,8 @@ export default function ProjetKasa() {
             moderniser avec une stack JavaScript. La mission implique développer
             un front-end entièrement en React, avec une architecture basée sur
             des composants réutilisables, tout en respectant des maquettes
-            responsives fournies via Figma. L'accent est mis sur la qualité du
-            code, le respect des bonnes pratiques, et la compatibilité
+            responsives fournies via Figma. {"L'accent"} est mis sur la qualité
+            du code, le respect des bonnes pratiques, et la compatibilité
             multi-écrans.
           </p>
           <h2 className="text-2xl font-bold mb-4">Technologies utilisées</h2>
@@ -68,7 +68,7 @@ export default function ProjetKasa() {
                 - Gestion des routes dynamiques pour afficher les propriétés.
               </li>
               <li className="list-none ml-4">
-                - Page d'erreur 404 pour les routes inexistantes.
+                - Page {"d'erreur"} 404 pour les routes inexistantes.
               </li>
             </li>
             <li>
