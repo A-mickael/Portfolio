@@ -33,6 +33,7 @@ export function Navbar() {
         {/* Liens desktop */}
         <div className="hidden md:flex items-center gap-4">
           <Link href="/">Accueil</Link>
+          <Link href="/projets">Projets</Link>
           <Link href="/prestations">Prestations</Link>
           <Link href="/contact">Contact</Link>
 
@@ -92,6 +93,9 @@ export function Navbar() {
         <div className="flex flex-col gap-3 border-t pt-4">
           <Link href="/" onClick={() => setMenuOpen(false)}>
             Accueil
+          </Link>
+          <Link href="/projets" onClick={() => setMenuOpen(false)}>
+            Projets
           </Link>
           <Link href="/prestations" onClick={() => setMenuOpen(false)}>
             Prestations
