@@ -17,8 +17,8 @@ export default function ProjetBooki() {
         <p className="text-xl mb-4 max-w-4xl text-center">
           Création de la page {"d'accueil"} {"d'une"} agence de voyage avec une
           interface responsive. Ce projet se concentre sur {"l'intégration"}{" "}
-          fidèle
-          {"d'une"} maquette et {"l'optimisation"} pour différents écrans.
+          fidèle {"d'une"} maquette et {"l'optimisation"} pour différents
+          écrans.
         </p>
         <section className="max-w-4xl w-full">
           <h2 className="text-2xl font-bold mb-4">Description du projet</h2>
