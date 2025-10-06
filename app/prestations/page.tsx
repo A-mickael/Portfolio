@@ -27,7 +27,7 @@ export default function Prestations() {
               <li>✅ Livraison rapide (3-5 jours)</li>
             </ul>
             <Button asChild className="mt-auto w-full">
-              <Link href="/infos-prestations/info-one-page">+ d'infos</Link>
+              <Link href="/infos-prestations/info-one-page">+ {"d'infos"}</Link>
             </Button>
           </Card>
 
@@ -48,7 +48,7 @@ export default function Prestations() {
               <li>✅ Livraison en 7 jours</li>
             </ul>
             <Button asChild className="mt-auto w-full">
-              <Link href="/infos-prestations/info-vitrine">+ d'infos</Link>
+              <Link href="/infos-prestations/info-vitrine">+ {"d'infos"}</Link>
             </Button>
           </Card>
 
@@ -67,7 +67,9 @@ export default function Prestations() {
               <li>✅ Nombre de pages illimité</li>
             </ul>
             <Button asChild className="mt-auto w-full">
-              <Link href="/infos-prestations/info-sur-mesure">+ d'infos</Link>
+              <Link href="/infos-prestations/info-sur-mesure">
+                + {"d'infos"}
+              </Link>
             </Button>
           </Card>
         </div>
@@ -108,7 +110,7 @@ export default function Prestations() {
               </p>
               <Button asChild className="mt-auto w-full">
                 <Link href="/infos-prestations/info-hebergement">
-                  + d'infos
+                  + {"d'infos"}
                 </Link>
               </Button>
             </Card>
@@ -118,7 +120,7 @@ export default function Prestations() {
               <p>Mises à jour, sauvegardes, corrections mineures</p>
               <Button asChild className="mt-auto w-full">
                 <Link href="/infos-prestations/info-maintenance-basique">
-                  + d'infos
+                  + {"d'infos"}
                 </Link>
               </Button>
             </Card>
@@ -128,7 +130,7 @@ export default function Prestations() {
               <p>+ Suivi SEO, support, petites modifications</p>
               <Button asChild className="mt-auto w-full">
                 <Link href="/infos-prestations/info-maintenance-complete">
-                  + d'infos
+                  + {"d'infos"}
                 </Link>
               </Button>
             </Card>
@@ -137,7 +139,9 @@ export default function Prestations() {
               <p className="text-2xl font-bold mb-2">À partir de 500 €</p>
               <p>Modernisation et optimisation d’un site existant</p>
               <Button asChild className="mt-auto w-full">
-                <Link href="/infos-prestations/info-refonte">+ d'infos</Link>
+                <Link href="/infos-prestations/info-refonte">
+                  + {"d'infos"}
+                </Link>
               </Button>
             </Card>
             <Card className="p-6 bg-white dark:bg-zinc-900">
@@ -148,7 +152,7 @@ export default function Prestations() {
                 détaillé.
               </p>
               <Button asChild className="mt-auto w-full">
-                <Link href="/infos-prestations/info-seo">+ d'infos</Link>
+                <Link href="/infos-prestations/info-seo">+ {"d'infos"}</Link>
               </Button>
             </Card>
           </div>

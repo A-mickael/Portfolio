@@ -73,8 +73,8 @@ export default function InfoVitrine() {
           <h2 className="text-2xl font-bold">❗ Tarification</h2>
           <p>
             Le pack débute à 490 € pour 3 pages. Chaque page supplémentaire
-            jusqu'à 5 pages peut être ajoutée avec un ajustement de prix. Pour
-            plus de 5 pages, il faudra passer au pack sur-mesure.
+            {"jusqu'à"} 5 pages peut être ajoutée avec un ajustement de prix.
+            Pour plus de 5 pages, il faudra passer au pack sur-mesure.
           </p>
         </section>
 
