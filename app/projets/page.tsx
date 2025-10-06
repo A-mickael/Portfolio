@@ -39,9 +39,8 @@ export default function Projets() {
             <CardDescription className="text-center mb-4">
               Création de la page {"d'accueil"} {"d'une"} agence de voyage avec
               une interface responsive. Ce projet se concentre sur{" "}
-              {"l'intégration"}
-              fidèle {"d'une"} maquette et {"l'optimisation"} pour différents
-              écrans.
+              {"l'intégration"} fidèle {"d'une"} maquette et {"l'optimisation"}{" "}
+              pour différents écrans.
             </CardDescription>
             <Button asChild className="mt-auto w-full">
               <Link href="/projets/projet-booki"> + {"d'infos"}</Link>
