@@ -1,0 +1,13 @@
+# *
+User-agent: *
+Allow: /
+
+# Googlebot
+User-agent: Googlebot
+Disallow: /private
+
+# Host
+Host: https://a-mickael.vercel.app
+
+# Sitemaps
+Sitemap: https://a-mickael.vercel.app/sitemap.xml
