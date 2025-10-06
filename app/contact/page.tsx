@@ -67,12 +67,13 @@ export default function Contact() {
             className="p-2 border border-gray-300 rounded dark:bg-zinc-900 dark:text-white"
           >
             <option value="">-- Sélectionnez votre demande --</option>
+            <option value="one-page">🌟 One Page</option>
             <option value="site-vitrine">🌐 Site Vitrine</option>
-            <option value="seo">🔍 SEO Renforcé</option>
             <option value="sur-mesure">💡 Projet Sur-mesure</option>
             <option value="hebergement">⚙️ Hébergement & Domaine</option>
             <option value="maintenance">🔧 Maintenance</option>
             <option value="refonte">♻️ Refonte de site</option>
+            <option value="seo">🔍 SEO Renforcé</option>
             <option value="autre">❓ Autre demande</option>
           </select>
 

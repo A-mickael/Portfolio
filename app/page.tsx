@@ -13,7 +13,83 @@ export default function Home() {
             Transformez vos idées en expériences numériques dynamiques.
           </p>
         </div>
-        <div className="mt-4 max-w-2xl text-center space-y-4">
+        <div className="mt-6 max-w-4xl mx-auto">
+          <h2 className="text-2xl font-bold uppercase underline text-center mb-6">
+            CMS (WordPress, Joomla, Wix...) vs Développeur Web
+          </h2>
+          <p className="text-center max-w-3xl mx-auto mb-6 text-lg">
+            Un site web peut être créé avec un CMS comme WordPress, Joomla ou
+            Wix, ou bien être développé sur mesure par un professionnel. Les CMS
+            sont gratuits au départ, mais nécessitent souvent des thèmes et
+            plugins payants, en plus {"d’une"} configuration technique qui peut
+            vite limiter vos possibilités. Avec un développement sur mesure,
+            vous bénéficiez
+            {"d’un"} site unique, sécurisé, rapide et parfaitement adapté à vos
+            besoins, sans dépendre de solutions toutes faites. Voici un
+            comparatif pour vous aider à bien comprendre les différences.
+          </p>
+          <div className="overflow-x-auto">
+            <table className="w-full border border-gray-300 dark:border-gray-700 rounded-lg overflow-hidden">
+              <thead>
+                <tr className="bg-zinc-300 dark:bg-zinc-800 text-left">
+                  <th className="p-3">Critères</th>
+                  <th className="p-3">CMS (WordPress, Joomla, Wix...)</th>
+                  <th className="p-3">Développeur Web (sur mesure)</th>
+                </tr>
+              </thead>
+              <tbody className="divide-y divide-gray-300 dark:divide-gray-700">
+                <tr>
+                  <td className="p-3 font-semibold">Coût initial</td>
+                  <td className="p-3">
+                    Moins cher au départ (thèmes & plugins)
+                  </td>
+                  <td className="p-3">Investissement plus élevé mais adapté</td>
+                </tr>
+                <tr>
+                  <td className="p-3 font-semibold">Personnalisation</td>
+                  <td className="p-3">
+                    Limitée aux thèmes & plugins disponibles
+                  </td>
+                  <td className="p-3">100% sur mesure, adapté à vos besoins</td>
+                </tr>
+                <tr>
+                  <td className="p-3 font-semibold">Sécurité</td>
+                  <td className="p-3">Dépend des mises à jour des plugins</td>
+                  <td className="p-3">Code maîtrisé, sécurité renforcée</td>
+                </tr>
+                <tr>
+                  <td className="p-3 font-semibold">Performances</td>
+                  <td className="p-3">Peut être ralenti par trop de plugins</td>
+                  <td className="p-3">Optimisé et rapide</td>
+                </tr>
+                <tr>
+                  <td className="p-3 font-semibold">Évolutivité</td>
+                  <td className="p-3">Limité aux options du CMS</td>
+                  <td className="p-3">
+                    Facile à faire évoluer selon vos projets
+                  </td>
+                </tr>
+                <tr>
+                  <td className="p-3 font-semibold">Maintenance</td>
+                  <td className="p-3">
+                    Mises à jour fréquentes, risque {"d’incompatibilité"}
+                  </td>
+                  <td className="p-3">Maintenance adaptée et suivie par moi</td>
+                </tr>
+                <tr>
+                  <td className="p-3 font-semibold">Prix moyen</td>
+                  <td className="p-3">À partir de 200€</td>
+                  <td className="p-3">À partir de 500€</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <p className="text-sm text-center mt-2 text-gray-500 dark:text-gray-400">
+            *Les prix indiqués sont des tarifs de départ et peuvent varier selon
+            la complexité du projet.
+          </p>
+        </div>
+        <div className="mt-10 max-w-2xl text-center space-y-4">
           <h2 className="text-2xl font-bold uppercase underline">
             à propos de moi
           </h2>

@@ -12,16 +12,35 @@ export default function Prestations() {
           Mes prestations
         </h1>
 
-        {/* Container des cartes */}
+        {/* --- Container des cartes --- */}
         <div className="grid gap-6 md:grid-cols-3 max-w-6xl w-full">
+          {/* --- Pack One Page --- */}
+          <Card className="flex flex-col border-2 rounded-2xl p-6 bg-white dark:bg-zinc-900 shadow-md hover:shadow-xl transition">
+            <h2 className="text-2xl font-bold mb-4 text-center">🌟 One Page</h2>
+            <p className="text-center text-3xl font-extrabold mb-4">300 €</p>
+            <ul className="space-y-2 text-gray-700 dark:text-gray-300">
+              <li>✅ 1 page unique et moderne</li>
+              <li>✅ Design responsive et adapté aux mobiles</li>
+              <li>✅ Formulaire de contact fonctionnel</li>
+              <li>✅ Intégration des réseaux sociaux</li>
+              <li>✅ SEO de base</li>
+              <li>✅ Livraison rapide (3-5 jours)</li>
+            </ul>
+            <Button asChild className="mt-auto w-full">
+              <Link href="/infos-prestations/info-one-page">+ d'infos</Link>
+            </Button>
+          </Card>
+
           {/* --- Pack Site Vitrine --- */}
           <Card className="flex flex-col border-2 rounded-2xl p-6 bg-white dark:bg-zinc-900 shadow-md hover:shadow-xl transition">
             <h2 className="text-2xl font-bold mb-4 text-center">
               🌐 Site Vitrine
             </h2>
-            <p className="text-center text-3xl font-extrabold mb-4">690 €</p>
+            <p className="text-center text-3xl font-extrabold mb-4">
+              À partir de 490 €
+            </p>
             <ul className="space-y-2 text-gray-700 dark:text-gray-300">
-              <li>✅ {"Jusqu’à"} 3 pages personnalisées</li>
+              <li>✅ 3 à 5 pages personnalisées</li>
               <li>✅ Design moderne et responsive</li>
               <li>✅ Formulaire de contact</li>
               <li>✅ Intégration réseaux sociaux</li>
@@ -29,24 +48,7 @@ export default function Prestations() {
               <li>✅ Livraison en 7 jours</li>
             </ul>
             <Button asChild className="mt-auto w-full">
-              <Link href="/infos-prestations/info-vitrine"> + {"d'infos"}</Link>
-            </Button>
-          </Card>
-
-          {/* --- Option SEO --- */}
-          <Card className="flex flex-col border-2 rounded-2xl p-6 bg-white dark:bg-zinc-900 shadow-md hover:shadow-xl transition">
-            <h2 className="text-2xl font-bold mb-4 text-center">
-              🔍 SEO Renforcé
-            </h2>
-            <p className="text-center text-3xl font-extrabold mb-4">+200 €</p>
-            <ul className="space-y-2 text-gray-700 dark:text-gray-300">
-              <li>✅ Recherche de mots-clés</li>
-              <li>✅ Optimisation des contenus</li>
-              <li>✅ Audit SEO complet</li>
-              <li>✅ Rapport PDF détaillé</li>
-            </ul>
-            <Button asChild className="mt-auto w-full">
-              <Link href="/infos-prestations/info-seo"> + {"d'infos"}</Link>
+              <Link href="/infos-prestations/info-vitrine">+ d'infos</Link>
             </Button>
           </Card>
 
@@ -59,18 +61,37 @@ export default function Prestations() {
               Sur devis
             </p>
             <ul className="space-y-2 text-gray-700 dark:text-gray-300">
-              <li>✅ Site e-commerce</li>
-              <li>✅ Application web personnalisée</li>
-              <li>✅ API & intégrations avancées</li>
+              <li>✅ Site e-commerce ou application web</li>
+              <li>✅ Fonctionnalités avancées et API intégrées</li>
+              <li>✅ Design 100% personnalisé</li>
               <li>✅ Nombre de pages illimité</li>
             </ul>
             <Button asChild className="mt-auto w-full">
-              <Link href="/infos-prestations/info-sur-mesure">
-                {" "}
-                + {"d'infos"}
-              </Link>
+              <Link href="/infos-prestations/info-sur-mesure">+ d'infos</Link>
             </Button>
           </Card>
+        </div>
+
+        {/* --- Bonus gratuit --- */}
+        <div className="mt-12 max-w-3xl mx-auto p-6 bg-zinc-100 dark:bg-zinc-800 rounded-2xl border border-zinc-300 dark:border-zinc-700 text-center">
+          <h3 className="text-2xl font-bold mb-4">🎁 Bonus gratuit</h3>
+          <p className="text-gray-700 dark:text-gray-300 mb-2">
+            Pour chaque pack (One Page ou Vitrine), je vous offre un petit bonus
+            pour faciliter votre présence en ligne et donner un aspect
+            professionnel dès le départ :
+          </p>
+          <ul className="list-disc list-inside text-gray-700 dark:text-gray-300 space-y-1">
+            <li>
+              Création d’une adresse mail professionnelle :{" "}
+              <strong>contact@votresite.fr</strong>
+            </li>
+            <li>
+              Ou création d’un Google Business Profile pour votre entreprise
+            </li>
+          </ul>
+          <p className="mt-4 font-semibold">
+            Ces services sont inclus gratuitement avec votre pack.
+          </p>
         </div>
 
         {/* --- Options supplémentaires --- */}
@@ -78,14 +99,16 @@ export default function Prestations() {
           <h2 className="text-2xl font-bold text-center mb-8">
             ⚙️ Options supplémentaires
           </h2>
-          <div className="grid gap-6 md:grid-cols-3">
+          <div className="grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
             <Card className="p-6 bg-white dark:bg-zinc-900">
               <h3 className="font-bold text-lg mb-2">Hébergement & Domaine</h3>
               <p className="text-2xl font-bold mb-2">80 €/an</p>
-              <p>Nom de domaine + hébergement optimisé</p>
+              <p>
+                Nom de domaine + hébergement optimisé, configuration complète
+              </p>
               <Button asChild className="mt-auto w-full">
                 <Link href="/infos-prestations/info-hebergement">
-                  + {"d'infos"}
+                  + d'infos
                 </Link>
               </Button>
             </Card>
@@ -95,7 +118,7 @@ export default function Prestations() {
               <p>Mises à jour, sauvegardes, corrections mineures</p>
               <Button asChild className="mt-auto w-full">
                 <Link href="/infos-prestations/info-maintenance-basique">
-                  + {"d'infos"}
+                  + d'infos
                 </Link>
               </Button>
             </Card>
@@ -105,19 +128,27 @@ export default function Prestations() {
               <p>+ Suivi SEO, support, petites modifications</p>
               <Button asChild className="mt-auto w-full">
                 <Link href="/infos-prestations/info-maintenance-complete">
-                  + {"d'infos"}
+                  + d'infos
                 </Link>
               </Button>
             </Card>
-            <Card className="p-6 bg-white dark:bg-zinc-900 md:col-span-3">
+            <Card className="p-6 bg-white dark:bg-zinc-900 ">
               <h3 className="font-bold text-lg mb-2">Refonte de site</h3>
               <p className="text-2xl font-bold mb-2">À partir de 500 €</p>
-              <p>Modernisation et optimisation {"d’un"} site existant</p>
+              <p>Modernisation et optimisation d’un site existant</p>
               <Button asChild className="mt-auto w-full">
-                <Link href="/infos-prestations/info-refonte">
-                  {" "}
-                  + {"d'infos"}
-                </Link>
+                <Link href="/infos-prestations/info-refonte">+ d'infos</Link>
+              </Button>
+            </Card>
+            <Card className="p-6 bg-white dark:bg-zinc-900">
+              <h3 className="font-bold text-lg mb-2">🔍 SEO Renforcé</h3>
+              <p className="text-2xl font-bold mb-2">+200 €</p>
+              <p>
+                Audit SEO complet, optimisation mots-clés et contenus, rapport
+                détaillé.
+              </p>
+              <Button asChild className="mt-auto w-full">
+                <Link href="/infos-prestations/info-seo">+ d'infos</Link>
               </Button>
             </Card>
           </div>
@@ -129,7 +160,7 @@ export default function Prestations() {
             📩 Intéressé par un de mes packs ?
           </h2>
           <p className="mb-6">
-            Contactez-moi dès {"aujourd’hui"} pour obtenir un devis gratuit et
+            Contactez-moi dès aujourd’hui pour obtenir un devis gratuit et
             personnalisé.
           </p>
           <Button size="lg" asChild>
