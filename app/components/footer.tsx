@@ -34,14 +34,14 @@ export function Footer() {
               />
             </a>
             <a
-              href="https://github.com/mickael13800"
+              href="https://www.facebook.com/profile.php?id=61581608323721"
               className="text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white"
               target="_blank"
               rel="noopener noreferrer"
             >
               <img
-                src="/github-ico.png"
-                alt="GitHub"
+                src="/facebook.png"
+                alt="Facebook"
                 className="w-6 h-6 bg-gray-900 rounded"
               />
             </a>
