@@ -4,11 +4,11 @@ import Link from "next/link";
 export function Footer() {
   return (
     <footer className="w-full p-4 border-t bg-white border-zinc-300 dark:bg-zinc-900 dark:border-zinc-700 flex flex-col ">
-      <div className="flex items-center justify-between mx-auto w-full max-w-6xl pb-10 border-b border-zinc-400 dark:border-zinc-700">
+      <div className="flex items-start gap-1 justify-between mx-auto w-full max-w-6xl pb-10 border-b border-zinc-400 dark:border-zinc-700">
         <div className="flex flex-col gap-4 items-start">
           <h2 className="text-lg font-bold">Mickaël AGNIEL</h2>
           <p>
-            Créé avec passion pour transformer vos idées en solutions web
+            Créer avec passion pour transformer vos idées en solutions web
             uniques.
           </p>
           <Link

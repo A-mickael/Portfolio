@@ -3,7 +3,7 @@ import { Card } from "@/src/components/ui/card";
 export default function Home() {
   return (
     <main className="pt-30">
-      <div className="flex flex-col  items-center m-6">
+      <div className="flex flex-col  items-center m-6 max-w-full">
         <div className="mb-8 text-center space-y-4">
           <h1 className="text-4xl font-bold text-center uppercase">
             mickaël agniel <br />
@@ -13,7 +13,8 @@ export default function Home() {
             Transformez vos idées en expériences numériques dynamiques.
           </p>
         </div>
-        <div className="mt-6 max-w-4xl mx-auto">
+
+        <div className="mt-6 w-full max-w-4xl mx-auto">
           <h2 className="text-2xl font-bold uppercase underline text-center mb-6">
             CMS (WordPress, Joomla, Wix...) vs Développeur Web
           </h2>
@@ -23,13 +24,13 @@ export default function Home() {
             sont gratuits au départ, mais nécessitent souvent des thèmes et
             plugins payants, en plus {"d’une"} configuration technique qui peut
             vite limiter vos possibilités. Avec un développement sur mesure,
-            vous bénéficiez
-            {"d’un"} site unique, sécurisé, rapide et parfaitement adapté à vos
-            besoins, sans dépendre de solutions toutes faites. Voici un
-            comparatif pour vous aider à bien comprendre les différences.
+            vous bénéficiez {"d’un"} site unique, sécurisé, rapide et
+            parfaitement adapté à vos besoins, sans dépendre de solutions toutes
+            faites. Voici un comparatif pour vous aider à bien comprendre les
+            différences.
           </p>
-          <div className="overflow-x-auto">
-            <table className="w-full border border-gray-300 dark:border-gray-700 rounded-lg overflow-hidden">
+          <div className="w-full overflow-x-auto ">
+            <table className="min-w-[600px] md:min-w-full border border-gray-300 dark:border-gray-700 rounded-none sm:rounded-lg overflow-hidden mx-auto">
               <thead>
                 <tr className="bg-zinc-300 dark:bg-zinc-800 text-left">
                   <th className="p-3">Critères</th>
@@ -142,6 +143,9 @@ export default function Home() {
               </Card>
               <Card className=" p-3 bg-zinc-300 dark:bg-zinc-800">
                 TailwindCSS
+              </Card>
+              <Card className=" p-3 bg-zinc-300 dark:bg-zinc-800">
+                Shadcn/ui
               </Card>
             </div>
           </div>
