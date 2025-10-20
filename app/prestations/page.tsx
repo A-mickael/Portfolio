@@ -86,7 +86,7 @@ export default function Prestations() {
           <ul className="list-disc list-inside text-gray-700 dark:text-gray-300 space-y-1">
             <li>
               📧 <strong>Création d’une adresse mail professionnelle</strong> si
-              vous prenez l'option <strong>Hébergement & Domaine</strong> :{" "}
+              vous prenez {"l'option"} <strong>Hébergement & Domaine</strong> :{" "}
               <span className="italic">contact@votresite.fr</span>
             </li>
             <li>
