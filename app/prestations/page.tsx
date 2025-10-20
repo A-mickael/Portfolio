@@ -78,21 +78,25 @@ export default function Prestations() {
         <div className="mt-12 max-w-3xl mx-auto p-6 bg-zinc-100 dark:bg-zinc-800 rounded-2xl border border-zinc-300 dark:border-zinc-700 text-center">
           <h3 className="text-2xl font-bold mb-4">🎁 Bonus gratuit</h3>
           <p className="text-gray-700 dark:text-gray-300 mb-2">
-            Pour chaque pack (One Page ou Vitrine), je vous offre un petit bonus
-            pour faciliter votre présence en ligne et donner un aspect
-            professionnel dès le départ :
+            Pour chaque pack <strong>One Page</strong> ou{" "}
+            <strong>Vitrine</strong>, je vous offre un bonus pour faciliter
+            votre présence en ligne et donner un aspect professionnel dès le
+            départ :
           </p>
           <ul className="list-disc list-inside text-gray-700 dark:text-gray-300 space-y-1">
             <li>
-              Création d’une adresse mail professionnelle :{" "}
-              <strong>contact@votresite.fr</strong>
+              📧 <strong>Création d’une adresse mail professionnelle</strong> si
+              vous prenez l'option <strong>Hébergement & Domaine</strong> :{" "}
+              <span className="italic">contact@votresite.fr</span>
             </li>
             <li>
-              Ou création d’un Google Business Profile pour votre entreprise
+              🌐 <strong>Création d’un profil Google Business</strong> pour
+              votre entreprise (visibilité sur Google et Google Maps)
             </li>
           </ul>
           <p className="mt-4 font-semibold">
-            Ces services sont inclus gratuitement avec votre pack.
+            Ces services sont inclus gratuitement selon le pack et les options
+            choisies.
           </p>
         </div>
 
