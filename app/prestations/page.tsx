@@ -162,6 +162,12 @@ export default function Prestations() {
           </div>
         </div>
 
+        {/* --- Info Paiement PayPal --- */}
+        <p className="text-gray-700 dark:text-gray-300 mt-6 text-center max-w-2xl mx-auto">
+          💳 Paiement sécurisé possible via PayPal, en une fois ou en plusieurs
+          fois sans frais.
+        </p>
+
         {/* --- CTA final --- */}
         <div className="mt-16 text-center">
           <h2 className="text-2xl font-bold mb-4">
