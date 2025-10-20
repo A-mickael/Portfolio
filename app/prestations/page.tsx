@@ -90,7 +90,7 @@ export default function Prestations() {
               <span className="italic">contact@votresite.fr</span>
             </li>
             <li>
-              🌐 <strong>Création d’un profil Google Business</strong> pour
+              🌐 <strong>Ou Création d’un profil Google Business</strong> pour
               votre entreprise (visibilité sur Google et Google Maps)
             </li>
           </ul>
