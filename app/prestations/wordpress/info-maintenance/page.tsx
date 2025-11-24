@@ -57,7 +57,7 @@ export default function InfoMaintenance() {
               → Non, uniquement les ajustements mineurs (textes, images, fix).
             </li>
             <li>
-              <strong>Y'a-t-il un engagement ?</strong>→ Aucun, résiliation
+              <strong>{"Y'a-t-il un engagement ?"}</strong>→ Aucun, résiliation
               possible à tout moment.
             </li>
             <li>

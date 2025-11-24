@@ -76,7 +76,7 @@ export default function PrestationsWordPress() {
             <ul className="space-y-2 text-gray-700 dark:text-gray-300">
               <li>✅ Design 100% personnalisé</li>
               <li>✅ Optimisation SEO avancée</li>
-              <li>✅ Intégration d'extensions premium</li>
+              <li>✅ Intégration {"d'extensions"} premium</li>
               <li>✅ Support & maintenance sur demande</li>
               <li>✅ Site évolutif et prêt pour la croissance</li>
             </ul>
